@@ -1,3 +1,4 @@
+/*Grungläggande layout med header, main, två asides och en footer*/
 *, html {
 margin: 0;
 padding: 0;
@@ -38,6 +39,7 @@ padding: 0;
     background: rgb(140, 85, 234);
   }
   
+  /*media-queries lånat från annan exempel*/
   @media all and (min-width: 600px) {
     .aside { flex: 1 0 0; }
   }
@@ -50,6 +52,7 @@ padding: 0;
     .footer  { order: 4; }
   }
 
+  /*Exempel två 6st flex items*/
   .flex-container {
     display: flex;
     flex-flow: row wrap;
